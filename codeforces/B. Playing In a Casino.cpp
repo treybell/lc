@@ -10,7 +10,7 @@ int main() {
     std::cin >> numOfCards;
     int countOfNums = 0;
     std::cin >> countOfNums;
-    int total = 0;
+    long long total = 0;
     
     int grid[numOfCards][countOfNums];
     for (int j = 0; j < numOfCards; j++) {
